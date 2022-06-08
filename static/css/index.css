@@ -67,7 +67,7 @@ main{
   color: white;
   height: 40%;
   width: 100%;
-  background-image: url("./img/background2.jpg");
+  background-image: url("/static/img/background2.jpg");
 }
 #input-block{
   width: 75%;
@@ -90,7 +90,7 @@ main{
   flex: 1;
   order: 1;
   background-color: tan;
-  background-image: url("./img/neutral.svg");
+  background-image: url("/static/img/neutral.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -98,7 +98,7 @@ main{
   flex: 1;
   order: 2;
   background-color: #FFD93D;
-  background-image: url("./img/happiness.svg");
+  background-image: url("/static/img/happiness.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -106,7 +106,7 @@ main{
   flex: 1;
   order: 3;
   background-color: #6BCB77;
-  background-image: url("./img/enthusiasm.svg");
+  background-image: url("/static/img/enthusiasm.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -114,7 +114,7 @@ main{
   flex: 1;
   order: 4;
   background-color: #9bb3db;
-  background-image: url("./img/sadness.svg");
+  background-image: url("/static/img/sadness.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -122,7 +122,7 @@ main{
   flex: 1;
   order: 5;
   background-color: #B3E283;
-  background-image: url("./img/disgust.svg");
+  background-image: url("/static/img/disgust.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -130,7 +130,7 @@ main{
   flex: 1;
   order: 6;
   background-color: #FF6B6B;
-  background-image: url("./img/fear.svg");
+  background-image: url("/static/img/fear.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -138,7 +138,7 @@ main{
   flex: 1;
   order: 7;
   background-color: #fb3640;
-  background-image: url("./img/anger.svg");
+  background-image: url("/static/img/anger.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
