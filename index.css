@@ -10,7 +10,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   margin: 0;
   display: flex;
-  height: calc(100vh - 25px);
+  height: calc(100vh - 50px);
   flex-flow: row wrap;
 }
 
@@ -26,6 +26,10 @@ header{
   color: white;
   text-align: center;
   z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 
 header a{
@@ -34,9 +38,16 @@ header a{
   text-decoration: none;
   font-family: Arial, serif;
   font-size: 20px;
+
 }
-header #github-logo{
-  size: 50px;
+#github-text-container{
+  width: fit-content;
+  text-align-all: center;
+}
+#github-logo-container{
+  width: 32px;
+  height: 32px;
+  padding-right: 10px;
 }
 main{
   height: 100%;
@@ -56,7 +67,7 @@ main{
   color: white;
   height: 40%;
   width: 100%;
-  background-image: url("./img/background.jpg");
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimage.freepik.com%2Ffree-vector%2Frainbow-lines-black-background-seamless-texture_87543-1293.jpg&f=1&nofb=1");
 }
 #input-block{
   width: 75%;
@@ -142,6 +153,8 @@ textarea[type="text"]{
   height: 200px;
   padding: 0;
   text-align: center;
+  font-size: 32px;
+  overflow: hidden;
   resize: none;
 }
 
