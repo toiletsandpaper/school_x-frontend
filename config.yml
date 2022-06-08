@@ -1,0 +1,10 @@
+Text:
+  LABELS:
+    0: neutral
+    1: happiness
+    2: sadness
+    3: enthusiasm
+    4: fear
+    5: anger
+    6: disgust
+

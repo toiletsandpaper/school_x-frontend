@@ -1,0 +1,7 @@
+torch~=1.11.0
+PyYAML~=6.0
+Flask~=2.1.2
+transformers~=4.19.2
+Flask-Cors~=3.0.10
+
+
