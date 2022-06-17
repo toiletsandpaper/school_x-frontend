@@ -1,6 +1,6 @@
 import json
 
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, render_template
 import torch
 from transformers import BertForSequenceClassification, AutoTokenizer
 from flask_cors import CORS, cross_origin
@@ -73,9 +73,12 @@ def data_processing():
     data = request.args.to_dict() or request.data or request.form or {}
     return data
 
-@app.route('/', methods=['POST'])
+@app.route('/', methods=['GET', 'POST'])
 @cross_origin()
 def main():
+    if request.method == 'GET':
+        return render_template('index.html')
+    
     data = request.json
     print(data)
     if data['text']:
